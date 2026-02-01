@@ -71,7 +71,7 @@ Swachh Saathi streamlines this process by organizing citizen complaints, identif
 - Rule-based and ML-assisted issue classification  
 
 ### ☁️ Deployment
-- Frontend: Vercel  
+- Frontend: Netlify  
 - Backend: Render  
 
 ---
