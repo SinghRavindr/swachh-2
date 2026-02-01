@@ -99,3 +99,7 @@ Swachh Saathi aims to streamline this process by organizing citizen complaints, 
 ```bash
 npm install
 npm run dev
+
+## Dashboard
+<img width="1889" height="820" alt="image" src="https://github.com/user-attachments/assets/189e02f7-7773-471f-b150-3feac5897252" />
+
