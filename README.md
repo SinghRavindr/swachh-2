@@ -1,109 +1,108 @@
-# Swachh Saathi
+# ♻️ Swachh Saathi
 
-Swachh Saathi is a civic sustainability web application built to help residents of Delhi report, understand, and respond to everyday civic issues in a simple and structured way. The platform aims to reduce confusion faced by citizens while dealing with municipal problems by providing clear categorization, priority identification, and guidance.
-
----
-
-## Introduction
-
-Urban cities like Delhi face frequent civic challenges related to waste management, sanitation, water supply, air quality, transportation, and energy infrastructure. While citizens are often affected by these issues, they may not know the correct authority to approach or the steps required to resolve the problem.
-
-Swachh Saathi addresses this gap by offering a single interface where users can describe an issue in natural language and receive relevant information and guidance. The application focuses on usability, clarity, and accessibility rather than complexity.
+**Swachh Saathi** is a civic sustainability web application built to help residents of Delhi report, understand, and respond to everyday civic issues in a simple and structured way. The platform reduces confusion faced by citizens when dealing with municipal problems by providing clear categorization, priority identification, and guidance.
 
 ---
 
-## Problem Statement
+## 📘 Introduction
 
-Delhi residents encounter multiple sustainability-related issues on a daily basis. Reporting these problems is often difficult due to fragmented systems, lack of clarity about responsibilities, and absence of proper feedback mechanisms. As a result, issues remain unresolved or are reported multiple times without coordination.
+Urban cities like Delhi face frequent civic challenges related to waste management, sanitation, water supply, air quality, transportation, and energy infrastructure. While citizens are directly affected, they often do not know the correct authority to approach or the steps required to resolve these problems.
 
-Swachh Saathi aims to streamline this process by organizing citizen complaints, identifying issue types, and highlighting priority areas that require immediate attention.
+Swachh Saathi bridges this gap by offering a single interface where users can describe an issue in natural language and receive relevant information and guidance. The application prioritizes **usability, clarity, and accessibility** over unnecessary complexity.
 
 ---
 
-## Key Objectives
+## 🚨 Problem Statement
+
+Delhi residents encounter multiple sustainability-related issues daily. Reporting these problems is difficult due to fragmented systems, lack of clarity about responsibilities, and absence of proper feedback mechanisms. As a result, issues remain unresolved or are reported repeatedly without coordination.
+
+Swachh Saathi streamlines this process by organizing citizen complaints, identifying issue types, and highlighting priority areas that require immediate attention.
+
+---
+
+## 🎯 Key Objectives
 
 - Simplify the process of reporting civic issues  
-- Improve awareness about different categories of civic problems  
-- Help users understand the severity and urgency of reported issues  
-- Encourage community participation through duplicate issue detection  
-- Provide basic insights into area-level civic health  
+- Improve awareness of civic issue categories  
+- Help users understand severity and urgency  
+- Reduce duplicate reporting through detection  
+- Provide insights into area-level civic health  
 
 ---
 
-## Features
+## ✨ Features
 
-### Citizen-Focused Features
-- Text-based reporting of civic issues  
+### 👥 Citizen-Focused Features
+- Text-based civic issue reporting  
 - Natural language input for ease of use  
-- Automatic categorization of issues  
-- Identification of issue priority levels  
-- Detection of duplicate issues already reported  
-- Display of recommended actions for users  
+- Automatic issue categorization  
+- Priority level identification  
+- Duplicate issue detection  
+- Recommended actions for users  
 
-### Insight & Monitoring Features
+### 📊 Insight & Monitoring Features
 - Overview of reported issues  
-- Identification of high-priority issues  
+- Identification of high-priority concerns  
 - Area-wise insights based on issue density  
-- Basic tracking of issue status  
+- Basic issue status tracking  
 
 ---
 
-## Supported Issue Categories
+## 🗂️ Supported Issue Categories
 
-- Waste Management  
-- Water Supply and Leakage  
-- Sanitation and Sewage Overflow  
-- Air Pollution  
-- Transportation and Road Issues  
-- Energy and Electrical Hazards  
-- Noise Pollution  
-
----
-
-## Technology Stack
-
-### Frontend
-- React with Vite for fast development and performance  
-- Tailwind CSS for responsive and clean UI design  
-
-### Backend
-- Flask (Python) for lightweight API handling  
-- Rule-based and ML-assisted issue classification logic  
-
-### Deployment
-- Frontend deployed on Vercel  
-- Backend deployed on Render  
+- 🗑️ Waste Management  
+- 🚰 Water Supply & Leakage  
+- 🚽 Sanitation & Sewage Overflow  
+- 🌫️ Air Pollution  
+- 🚧 Transportation & Road Issues  
+- ⚡ Energy & Electrical Hazards  
+- 🔊 Noise Pollution  
 
 ---
 
-## Live Application
+## 🛠️ Technology Stack
 
-- **Frontend URL:** https://swachh.netlify.app/
-- **Backend URL:** https://swachh-saathi.onrender.com  
+### 🎨 Frontend
+- React + Vite for fast development  
+- Tailwind CSS for responsive UI  
 
----
+### ⚙️ Backend
+- Flask (Python) for API handling  
+- Rule-based and ML-assisted issue classification  
 
-## Application Flow
-
-1. User enters a description of a civic issue  
-2. The system analyzes the input and categorizes the issue  
-3. Priority level is determined based on issue characteristics  
-4. Duplicate reports are identified to increase reliability  
-5. User receives guidance and relevant information  
-
----
-
-##Dashboard
-<img width="1889" height="820" alt="image" src="https://github.com/user-attachments/assets/189e02f7-7773-471f-b150-3feac5897252" />
+### ☁️ Deployment
+- Frontend: Vercel  
+- Backend: Render  
 
 ---
 
-## How to Run Locally
+## 🌐 Live Application
+
+- **Frontend:** https://swachh.netlify.app/  
+- **Backend:** https://swachh-saathi.onrender.com/  
+
+---
+
+## 🔄 Application Flow
+
+1. User enters a civic issue description  
+2. System analyzes and categorizes the issue  
+3. Priority level is determined  
+4. Duplicate issues are detected  
+5. User receives guidance and insights  
+
+---
+
+## 📊 Dashboard
+
+<img width="1889" height="820" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/189e02f7-7773-471f-b150-3feac5897252" />
+
+---
+
+## 🧑‍💻 How to Run Locally
 
 ### Frontend Setup
+
 ```bash
 npm install
 npm run dev
-
-
-
